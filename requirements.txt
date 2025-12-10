@@ -10,3 +10,4 @@ matrix-nio[e2e]>=0.6
 aiohttp ; python_version >= "3.5"
 python-magic
 requests
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
